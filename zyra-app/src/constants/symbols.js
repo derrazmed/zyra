@@ -1,0 +1,17 @@
+const ASSETS = ["BTC", "ETH", "SOL", "BNB", "ADA", "XRP", "AVAX", "DOGE", "POL", "DOT"];
+const SYMBOLS = ASSETS.map((asset) => `${asset}USDT`);
+
+const INITIAL_PRICES = {
+  BTCUSDT: 62450,
+  ETHUSDT: 3120,
+  SOLUSDT: 178,
+  BNBUSDT: 612,
+  ADAUSDT: 0.452,
+  XRPUSDT: 0.612,
+  AVAXUSDT: 34.85,
+  DOGEUSDT: 0.158,
+  POLUSDT: 0.82,
+  DOTUSDT: 9.14,
+};
+
+export { ASSETS, INITIAL_PRICES, SYMBOLS };

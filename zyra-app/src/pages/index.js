@@ -1,0 +1,11 @@
+export { default as AgentPage } from "./AgentPage.jsx";
+export { default as DashboardPage } from "./DashboardPage.jsx";
+export { default as DexPage } from "./DexPage.jsx";
+export { default as HelpPage } from "./HelpPage.jsx";
+export { default as IntegrationsPage } from "./IntegrationsPage.jsx";
+export { default as LogsPage } from "./LogsPage.jsx";
+export { default as NotificationsPage } from "./NotificationsPage.jsx";
+export { default as PositionsPage } from "./PositionsPage.jsx";
+export { default as SettingsPage } from "./SettingsPage.jsx";
+export { default as StrategiesPage } from "./StrategiesPage.jsx";
+export { default as WalletPage } from "./WalletPage.jsx";
